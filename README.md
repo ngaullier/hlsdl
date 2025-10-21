@@ -21,9 +21,11 @@ https://github.com/selsta/hlsdl/blob/master/msvc/BUID_WINDOWS.txt
 
 Docker: `docker build -t hlsdl:latest .`
 
+Build debian package: `make deb`
 
 Usage and Options
 -----------------
+
 `./hlsdl [options] url`
 
 ```
@@ -31,6 +33,7 @@ docker run -v ./data:/var/hlsdl/data --rm -it hlsdl:latest hlsdl [options] url
 ```
 
 ---------------------------
+
 ```
 -b ... Automatically choose the best quality.
 
@@ -85,6 +88,7 @@ docker run -v ./data:/var/hlsdl/data --rm -it hlsdl:latest hlsdl [options] url
 
 ToDo
 -----
+
 * support for Fragmented MPEG-4 playlist
 * support for EXT-X-MAP in the MPEG-2 Transport Streams playlist
 
